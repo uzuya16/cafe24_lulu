@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lululemon</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Font css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="head">
+        <header class="main_haeder">
+            <div class="gnb">
+                <a href="#" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <a href="#" class="logo">
+                    <span>lululemon</span>
+                </a>
+                <ul class="icon">
+                    <li class="user">
+                        <a href="#">
+                            <img src="img/icon_user.png" alt="user">
+                        </a>
+                    </li>
+                    <li class="shopping">
+                        <a href="#">
+                            <img src="img/icon_shopping.png" alt="shopping">
+                        </a>
+                    </li>
+                    <li class="search">
+                        <a href="#">
+                            <img src="img/icon_search.png" alt="search">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="main-slide">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/main_1.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/main_2.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/main_3.png" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Section 1: Featured Products -->
+    <section class="section1">
+        <div class="container">
+            <div class="product-item">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual -->
+    <section>
+    </section>
+
+    <!-- Section 2: Product Grid -->
+    <section>
+    </section>
+
+    <!-- Section 3: Events -->
+    <section>
+    </section>
+
+    <!-- Section 4: Additional Products -->
+    <section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+
+
+
+    <!-- script -->
+    <script src="script/jquery-3.7.1.js"></script>
+    <!-- Swiper JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Swiper Init -->
+    <script>
+        const swiper = new Swiper(".mySwiper", {
+            loop: true,
+            speed: 800,
+            autoplay: {
+                delay: 6000,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            }
+        });
+    </script>
+
+</body>
+
+</html>
